@@ -37,7 +37,7 @@ const Hero = () => {
           AI & Analytics Summit
             
           </h1>
-          <h5 className="tagline mb-6 text-center text-n-1/50">
+          <h5 className="tagline text-base mb-6 text-center text-n-1">
           <i class="fa-solid fa-location-dot "></i> Riyadh, Saudi Arabia <br/>
           1st May 2025 <br/>
           {/*  */}
@@ -45,7 +45,7 @@ const Hero = () => {
           <div>
             <Countdown/>
             <div className="relative z-10 mt-6 lg:block">
-      <h5 className="tagline mb-6 text-center text-n-1/50">
+      <h5 className="tagline text-base mb-6 text-center text-n-1">
       Accelerating Innovation in Enterprises with Applied AI & Analytics Strategies
       </h5>
       </div>
