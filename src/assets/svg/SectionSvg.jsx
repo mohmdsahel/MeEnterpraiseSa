@@ -12,7 +12,7 @@ const SectionSvg = ({ crossesOffset }) => {
       <PlusSvg
         className={`hidden absolute  -top-[0.3125rem] right-[1.5625rem] ${
           crossesOffset && crossesOffset
-        } pointer-events-none lg:block xl:right-[2.1875rem]`}
+        } pointer-events-none  lg:block xl:right-[2.1875rem]`}
       />
     </>
   );

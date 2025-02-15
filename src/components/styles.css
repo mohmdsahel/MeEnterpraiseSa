@@ -89,3 +89,10 @@
 	letter-spacing: 4px;
 	margin-top: 10px;
 }
+.hide-scrollbar {
+	overflow: auto;
+	scrollbar-width: none; /* Firefox */
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+  }

@@ -21,16 +21,13 @@ const AboutUs = () => {
       
      <div className="container">
         
-        <div className="relative z-1 flex flex-col items-center min-h-[20rem] mb-5 p-4 border border-n-1/10 rounded-3xl overflow-hidden 
-          sm:p-6 
-          md:min-h-[30rem] md:p-8 
-          lg:p-20 lg:min-h-[39rem] 
-          xl:min-h-[46rem]">
+        <div className="relative z-1  items-center min-h-[20rem] mb-5 bg-conic-gradient p-0.25 rounded-[2.5rem] overflow-hidden ">
+             <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
           <div className="relative z-1">
             
-          <div className="container relative z-2">
+          <div className="container left-40 relative z-2">
         <motion.div 
-          className={`max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center`}
+          className={`max-w-[50rem] mx-auto   md:text-center`}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -69,14 +66,16 @@ const AboutUs = () => {
         <div className="absolute left-0 top-0 w-full h-full pointer-events-none hidden md:block">
             <img
               className="w-full h-full object-contain object-left opacity-30"
-              width={800}
+              width={150}
               alt="Smartest AI"
-              height={730}
+              height={100
+                
+              }
               src={service3}
             />
           </div>
       </div>
-
+      </div>
         <div className="relative">
           
 
