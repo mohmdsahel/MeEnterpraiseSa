@@ -4,19 +4,18 @@ import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 
-
 export default function Speaker() {
   const containerRef = useRef(null);
 
   return (
-    <Section crosses id="speakers" className="h-screen-[100vh]">
-      <div className="min-h-screen">
-        <div className="z-50  backdrop-blur-sm ">
-          <Heading className="text-center " title="Series Speaker" />
+    <Section crosses id="speakers" className="h-[100vh]">
+      <div className="h-full flex flex-col justify-center">
+        <div className="z-50 backdrop-blur-sm">
+          <Heading className="text-center" title="Series Speaker" />
         </div>
         
-        <div className="container mx-auto px-1">
-          <div ref={containerRef} className="relative overflow-auto overscroll-auto  w pt-28" style={{scrollbarWidth:"none"}}>
+        <div className="container mx-auto px-1 flex-1 overflow-auto">
+          <div ref={containerRef} className="relative w-full pt-28" style={{ scrollbarWidth: "none" }}>
             {benefits.map(({ title, text, imageUrl, backgroundUrl }, i) => (
               <Card
                 key={title}
@@ -66,9 +65,8 @@ function Card({ index, title, text, image, backgroundUrl, containerRef }) {
       >
         <div className="flex flex-col md:flex-row">
           <div 
-            className="w-full  p-8"
+            className="w-full p-8"
             style={{
-             
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
