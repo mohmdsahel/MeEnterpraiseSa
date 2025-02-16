@@ -11,6 +11,7 @@ import Roadmap from "./components/Agendas";
 import Speaker from "./components/Speakers";
 import Contact from "./components/Contact";
 
+
 const App = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App = () => {
         <Hero />
         <AboutUs />
         <Speaker />
+       
         <Roadmap />
         <Collaboration />
         <Pricing />

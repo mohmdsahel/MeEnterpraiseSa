@@ -7,6 +7,7 @@ import { collabContent, keyTopics, whyAttend, whySponsor } from "../constants";
 import {  grid } from "../assets";
 import { Gradient } from "./design/Roadmap";
 import Heading from "./Heading";
+import Stats from "./Container";
 
 const Roadmap = () => (
   <Section crosses className="overflow-hidden " id="agenda">
@@ -150,8 +151,11 @@ const Roadmap = () => (
          
 
         <Gradient />
-      </div>
         
+      </div>
+
+       
+      <div className="m-8 p-4"><Stats/></div>
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
          <Heading 
          title="Download The Middle East Enterprise AI & Analytics Agenda here:" 
