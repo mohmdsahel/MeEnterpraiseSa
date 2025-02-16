@@ -9,14 +9,14 @@ export default function Speaker() {
   const containerRef = useRef(null);
 
   return (
-    <Section crosses id="speakers">
+    <Section crosses id="speakers" className="h-screen-[100vh]">
       <div className="min-h-screen">
         <div className="z-50  backdrop-blur-sm ">
           <Heading className="text-center " title="Series Speaker" />
         </div>
         
         <div className="container mx-auto px-1">
-          <div ref={containerRef} className="relative h-[100vh] overflow-auto overscroll-auto  w pt-28" style={{scrollbarWidth:"none"}}>
+          <div ref={containerRef} className="relative overflow-auto overscroll-auto  w pt-28" style={{scrollbarWidth:"none"}}>
             {benefits.map(({ title, text, imageUrl, backgroundUrl }, i) => (
               <Card
                 key={title}
