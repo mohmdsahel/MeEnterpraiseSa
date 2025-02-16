@@ -14,12 +14,11 @@ const Collaboration = () => {
       <GradientLight/>
       <div className="container">
        
-          <div className="relative z-1 flex flex-col items-center min-h-[20rem] mb-5 p-4 border border-n-1/10 rounded-3xl overflow-hidden 
-          sm:p-3 sm:min-h-[25rem]
+        <div className="relative z-1 flex flex-col items-center min-h-[20rem] mb-5 p-4 border border-n-1/10 rounded-3xl overflow-hidden 
+          sm:p-3 
           md:min-h-[30rem] md:p-4 
           lg:p-10 lg:min-h-[39rem] 
           xl:min-h-[46rem]">
-
           <div className="relative z-1">
             
           <Heading className="text-center" title="Series Partners" />
@@ -30,13 +29,13 @@ const Collaboration = () => {
 <div >
     
     <div >
-      <ul className="flex flex-row flex-nowrap gap-6">
+      <ul className="flex flex-row flex-nowrap justify-center gap-6">
         {seriesPartners.map((item, index) => (
           <li
             key={index}
             className="flex flex-col items-center gap-1"
           >
-             <span className="  text-center tagline font-bold text-white m-2">
+             <span className=" text-base text-center tagline font-bold text-white m-2">
               {item.name}
             </span>
             <div
@@ -60,13 +59,11 @@ const Collaboration = () => {
  
 
  
-   <div className="mt-8 ">
+   <div className="mt-8">
      <h3 className="text-xl text-center tagline font-bold text-white mb-6">
        Exhibiting Partners
      </h3>
-       <ul className=" grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
-
-
+     <ul className="flex flex-row flex-wrap justify-center gap-6">
        {exhibitingPartners.map((item, index) => (
          <li
            key={index}
@@ -93,7 +90,7 @@ const Collaboration = () => {
           </div>
           <div className="absolute left-0 top-0 w-full h-full pointer-events-none">
             <img
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover opacity-40"
               width={800}
               alt="Smartest AI"
               height={730}
@@ -178,3 +175,5 @@ const Collaboration = () => {
 };
 
 export default Collaboration;
+
+
