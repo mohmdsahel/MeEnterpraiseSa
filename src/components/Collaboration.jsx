@@ -69,7 +69,7 @@ const Collaboration = () => {
            key={index}
            className="flex flex-col items-center gap-1"
          >
-           <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-600/50">
+           <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-900/80">
              <img 
                src={item.icon} 
                width={150} 
@@ -90,7 +90,7 @@ const Collaboration = () => {
           </div>
           <div className="absolute left-0 top-0 w-full h-full pointer-events-none">
             <img
-              className="w-full h-full object-cover opacity-40"
+              className="w-full h-full object-cover opacity-20"
               width={800}
               alt="Smartest AI"
               height={730}
@@ -119,7 +119,7 @@ const Collaboration = () => {
                   key={index}
                   className="flex flex-col items-center gap-1 w-[150px]"
                 >
-                  <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-600/50 w-full ">
+                  <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-900/80 w-full ">
                     <img 
                       src={item.icon} 
                       width={150} 

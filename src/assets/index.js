@@ -1,9 +1,19 @@
 import logo from "./logo.png";
 import check from "./check.svg";
+import key1 from "./key1.png";
+import key2 from "./key2.png";
+import key3 from "./key3.png";
+import key4 from "./key4.png";
+
 
 import gradient from "./gradient.png";
 
 import grid from "./grid.png";
+import ai from "./Ai.png";
+import live from "./Live.png";
+import industry from "./Industry.png";
+import hours from "./Hours.png";
+
 import check2 from "./check-02.svg";
 
 import plusSquare from "./plus-square.svg";
@@ -14,6 +24,7 @@ import heroBackground from "./hero/hero-background1.webm";
 import speaker1 from "./benefits/speaker1.png";
 import speaker2 from "./benefits/speaker2.png";
 import speaker3 from "./benefits/speaker3.png";
+import linkedin from "./benefits/linkedin.svg";
 
 import partner1 from "./partners/partner1.png";
 import partner2 from "./partners/partner2.png";
@@ -73,6 +84,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+
+  key1,
+  key2,
+  key3,
+  key4,
+
   partner1,
   partner2,
   partner3,
@@ -105,6 +122,7 @@ export {
   speaker1,
   speaker2,
   speaker3,
+  linkedin,
   
 
   logo,
@@ -116,6 +134,10 @@ export {
   gradient,
 
   grid,
+  ai,
+  live,
+  industry,
+  hours,
 
   plusSquare,
   video,

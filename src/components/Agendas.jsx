@@ -101,11 +101,10 @@ const Roadmap = () => (
                   
                   <h4 className="h3 mb-4">Key topics</h4>
                   <ul className=" mb-10 md:mb-14">
-            {keyTopics
-            .map((item) => (
+            {keyTopics.map((item) => (
               <li className="mb-2 py-2" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
+                  <img src={item.icon} width={24} height={24} />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                

@@ -3,7 +3,7 @@ import {
   speaker2,
   speaker3,
  
- 
+  key1,
  
   discordBlack,
   facebook,
@@ -40,6 +40,10 @@ import {
   icon07,
   icon08,
   icon09,
+  key2,
+  key3,
+  key4,
+  check,
 } from "../assets";
 
 export const navigation = [
@@ -415,39 +419,48 @@ export const keyTopics = [
   {
     id: "0",
     title: "Harnessing the Power of Innovation: Future of KSA in a World of Accelerating Change",
+    icon: key1,
     
   },
   {
     id: "1",
     title: "The CIO’s Playbook of Enterprise AI",
+    icon: key2,
   },
   {
     id: "2",
     title: "Pacing Yourself in the AI Race",
+     icon: key3,
   },
   {
     id: "3",
     title: " Ensuring Enterprise AI Success with Responsible Data ",
+    icon: key4,
   },
   {
     id: "4",
     title: " Laying the Groundwork for Data Modernisation and AI ",
+    icon: check,
   },
   {
     id: "5",
     title: " Scaling Cognitive Architecture ",
+    icon: check,
   },
   {
     id: "6",
     title: " Aligning Strategies with Business Mission: From Data to Decisions ",
+    icon: check,
   },
   {
     id: "7",
     title: " Partnership between a CDAO and CFO: The Analytics and Data-Driven CFO ",
+    icon: check,
   },
   {
     id: "8",
     title:" Adapting Ethical and Responsible AI " ,
+    icon: check,
   },
  
 ];
@@ -564,7 +577,7 @@ export const benefits = [
     id: "0",
     title: "Dion Thorpe",
     text: "Vice President, Data",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    link:  "https://www.linkedin.com/",
     imageUrl: speaker1,
   },
   {
@@ -702,70 +715,70 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     imageUrl: speaker2,
   },
-  // {
-  //   id: "20",
-  //   title: "Yazid Alazwari",
-  //   text: "Head of New Technologies Assessment",
-  //   backgroundUrl: "./src/assets/benefits/card-3.svg",
-  //   imageUrl: speaker3,
-  // },
-  // {
-  //   id: "21",
-  //   title: "Dion Thorpe",
-  //   text: "Vice President, Data",
-  //   backgroundUrl: "./src/assets/benefits/card-1.svg",
-  //   imageUrl: speaker1,
-  // },
+  {
+    id: "20",
+    title: "Yazid Alazwari",
+    text: "Head of New Technologies Assessment",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    imageUrl: speaker3,
+  },
+  {
+    id: "21",
+    title: "Dion Thorpe",
+    text: "Vice President, Data",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    imageUrl: speaker1,
+  },
  
-  // {
-  //   id: "22",
-  //   title: "Adeem AlMurayi",
-  //   text: "Analytics Innovation Director",
-  //   backgroundUrl: "./src/assets/benefits/card-2.svg",
-  //   imageUrl: speaker2,
-  // },
-  // {
-  //   id: "23",
-  //   title: "Yazid Alazwari",
-  //   text: "Head of New Technologies Assessment",
-  //   backgroundUrl: "./src/assets/benefits/card-3.svg",
-  //   imageUrl: speaker3,
-  // },
-  // {
-  //   id: "24",
-  //   title: "Dion Thorpe",
-  //   text: "Vice President, Data",
-  //   backgroundUrl: "./src/assets/benefits/card-1.svg",
-  //   imageUrl: speaker1,
-  // },
-  // {
-  //   id: "25",
-  //   title: "Adeem AlMurayi",
-  //   text: "Analytics Innovation Director",
-  //   backgroundUrl: "./src/assets/benefits/card-2.svg",
-  //   imageUrl: speaker2,
-  // },
-  // {
-  //   id: "26",
-  //   title: "Yazid Alazwari",
-  //   text: "Head of New Technologies Assessment",
-  //   backgroundUrl: "./src/assets/benefits/card-3.svg",
-  //   imageUrl: speaker3,
-  // },
-  // {
-  //   id: "27",
-  //   title: "Dion Thorpe",
-  //   text: "Vice President, Data",
-  //   backgroundUrl: "./src/assets/benefits/card-1.svg",
-  //   imageUrl: speaker1,
-  // },
-  // {
-  //   id: "28",
-  //   title: "Adeem AlMurayi",
-  //   text: "Analytics Innovation Director",
-  //   backgroundUrl: "./src/assets/benefits/card-2.svg",
-  //   imageUrl: speaker2,
-  // },
+  {
+    id: "22",
+    title: "Adeem AlMurayi",
+    text: "Analytics Innovation Director",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    imageUrl: speaker2,
+  },
+  {
+    id: "23",
+    title: "Yazid Alazwari",
+    text: "Head of New Technologies Assessment",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    imageUrl: speaker3,
+  },
+  {
+    id: "24",
+    title: "Dion Thorpe",
+    text: "Vice President, Data",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    imageUrl: speaker1,
+  },
+  {
+    id: "25",
+    title: "Adeem AlMurayi",
+    text: "Analytics Innovation Director",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    imageUrl: speaker2,
+  },
+  {
+    id: "26",
+    title: "Yazid Alazwari",
+    text: "Head of New Technologies Assessment",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    imageUrl: speaker3,
+  },
+  {
+    id: "27",
+    title: "Dion Thorpe",
+    text: "Vice President, Data",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    imageUrl: speaker1,
+  },
+  {
+    id: "28",
+    title: "Adeem AlMurayi",
+    text: "Analytics Innovation Director",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    imageUrl: speaker2,
+  },
  
  
  
