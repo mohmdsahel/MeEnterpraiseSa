@@ -1,9 +1,14 @@
 import logo from "./logo.png";
 import check from "./check.svg";
-import key1 from "./key1.png";
-import key2 from "./key2.png";
-import key3 from "./key3.png";
-import key4 from "./key4.png";
+import key1 from "./keytopic/key1.png";
+import key2 from "./keytopic/key2.png";
+import key3 from "./keytopic/key3.png";
+import key4 from "./keytopic/key4.png";
+import key5 from "./keytopic/key5.png";
+import key6 from "./keytopic/key6.png";
+import key7 from "./keytopic/key7.png";
+import key8 from "./keytopic/key8.png";
+import key9 from "./keytopic/key9.png";
 
 
 import gradient from "./gradient.png";
@@ -65,9 +70,7 @@ import service4 from "./services/service-4.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-
-
-
+import spotlight from "./spotlight.png";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -89,6 +92,13 @@ export {
   key2,
   key3,
   key4,
+  key5,
+  key6,
+  key7,
+  key8,
+  key9,
+   
+  spotlight,
 
   partner1,
   partner2,

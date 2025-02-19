@@ -38,7 +38,7 @@ const Roadmap = () => (
                   {/* <ul className="list-disc text-center list-inside body-2 text-n-3 [&>li]:mb-2"> */}
                   <ul className="mb-10 md:mb-14">
             {collabContent.map((item) => (
-              <li className="mb-2 py-2" key={item.id}>
+              <li className="mb-4 py-2" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
                   <p className="body-2 ml-5">{item.title}</p>
@@ -104,8 +104,8 @@ const Roadmap = () => (
             {keyTopics.map((item) => (
               <li className="mb-2 py-2" key={item.id}>
                 <div className="flex items-center">
-                  <img src={item.icon} width={24} height={24} />
-                  <h6 className="body-2 ml-5">{item.title}</h6>
+                  <img src={item.icon} width={35} height={35} />
+                  <h6 className="body-2 font-bold ml-5">{item.title}</h6>
                 </div>
                
               </li>

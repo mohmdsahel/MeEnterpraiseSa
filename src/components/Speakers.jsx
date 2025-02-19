@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import { linkedin } from "../assets";
+import { linkedin, spotlight } from "../assets";
 
 
 export default function Speaker() {
@@ -14,8 +14,10 @@ export default function Speaker() {
       <div className="min-h-screen">
         <div className="z-50 backdrop-blur-sm "> {/* Reduced margin-bottom space */}
           <Heading className="text-center" title="Spotlight Speakers" />
+         {/* <img src={spotlight} width={200} height={200} className="items-center" /> */}
+         
         </div>
-
+     
         <div className="w-full">
           
           <div

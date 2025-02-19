@@ -3,7 +3,7 @@ import {
   speaker2,
   speaker3,
  
-  key1,
+ 
  
   discordBlack,
   facebook,
@@ -40,10 +40,16 @@ import {
   icon07,
   icon08,
   icon09,
+  key1,
   key2,
   key3,
   key4,
   check,
+  key5,
+  key6,
+  key7,
+  key8,
+  key9,
 } from "../assets";
 
 export const navigation = [
@@ -440,27 +446,27 @@ export const keyTopics = [
   {
     id: "4",
     title: " Laying the Groundwork for Data Modernisation and AI ",
-    icon: check,
+    icon: key5,
   },
   {
     id: "5",
     title: " Scaling Cognitive Architecture ",
-    icon: check,
+    icon: key6,
   },
   {
     id: "6",
     title: " Aligning Strategies with Business Mission: From Data to Decisions ",
-    icon: check,
+    icon: key7,
   },
   {
     id: "7",
     title: " Partnership between a CDAO and CFO: The Analytics and Data-Driven CFO ",
-    icon: check,
+    icon: key8,
   },
   {
     id: "8",
     title:" Adapting Ethical and Responsible AI " ,
-    icon: check,
+    icon: key9,
   },
  
 ];
