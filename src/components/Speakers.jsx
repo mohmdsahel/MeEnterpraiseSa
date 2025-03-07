@@ -90,7 +90,7 @@ export default function Speaker() {
 
   return (
     <Section crosses>
-      <div className="h-screen relative overflow-hidden flex flex-col">
+      <div className="h-screen relative overflow-hidden flex flex-col " id="speakers">
         <motion.h1
           initial={{ opacity: 0.5, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -99,7 +99,7 @@ export default function Speaker() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500  bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent md:text-4xl relative z-10"
+          className="mt-32 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl relative z-10"
         >
           Spotlight Speakers
         </motion.h1>
