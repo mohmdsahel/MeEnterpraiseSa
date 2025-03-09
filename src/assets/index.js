@@ -29,6 +29,13 @@ import heroBackground from "./hero/hero-background1.webm";
 import speaker1 from "./benefits/speaker1.png";
 import speaker2 from "./benefits/speaker2.png";
 import speaker3 from "./benefits/speaker3.png";
+import speaker4 from "./benefits/speaker4.png";
+import speaker5 from "./benefits/speaker5.png";
+import speaker6 from "./benefits/speaker6.png";
+import speaker7 from "./benefits/speaker7.png";
+import speaker8 from "./benefits/speaker8.png";
+import speaker9 from "./benefits/speaker9.png";
+
 import linkedin from "./benefits/linkedin.svg";
 
 import partner1 from "./partners/partner1.png";
@@ -132,6 +139,13 @@ export {
   speaker1,
   speaker2,
   speaker3,
+  speaker4,
+  speaker5,
+  speaker6,
+  speaker7,
+  speaker8,
+  speaker9,
+
   linkedin,
   
 

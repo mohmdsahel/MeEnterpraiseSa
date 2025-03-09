@@ -66,7 +66,7 @@ const AboutUs = () => {
             {/* For These Industries Section */}
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="py-6 md:py-12 px-4 md:px-8">
-                <h4 className="h4 mb-6 md:mb-12 text-center">For These Industries</h4>
+                <p className="h2 mb-6 md:mb-12 text-center">For These Industries</p>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-6 md:gap-8 max-w-[90%] mx-auto">
                   {forTheseIndustries.slice(0, 9).map((item, index) => (
                     <motion.li
@@ -87,7 +87,7 @@ const AboutUs = () => {
                             width={24}
                             height={24}
                             alt={item.tag}
-                            className="w-5 md:w-6"
+                            className="w-7 md:w-9"
                           />
                         </div>
                       </motion.div>
@@ -103,7 +103,7 @@ const AboutUs = () => {
             {/* Conference Theme Section */}
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="py-6 md:py-12 px-4 md:px-8">
-                <h4 className="h4 mb-6 md:mb-12 text-center">Conference Theme</h4>
+                <p className="h2 mb-6 md:mb-12 text-center">Conference Theme</p>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-6 md:gap-8 max-w-[90%] mx-auto">
                   {conferenceTheme.slice(0, 9).map((item, index) => (
                     <motion.li
@@ -124,7 +124,7 @@ const AboutUs = () => {
                             width={24}
                             height={24}
                             alt={item.name}
-                            className="w-5 md:w-6"
+                            className="w-7 md:w-9"
                           />
                         </div>
                       </motion.div>

@@ -155,7 +155,7 @@ const Roadmap = () => (
 
        
       <div className="m-8 p-4"><Stats/></div>
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+      <div className="flex text-center justify-center mt-12 md:mt-15 xl:mt-20">
          <Heading 
          title="Download The Middle East Enterprise AI & Analytics Agenda here:" 
          text="The Programme will take a deep dive into how public and private organizations are responding to the multiple drivers of AI & Analytics. The insight will be delivered by individuals with hands on experience from the industry in the vanguard of digital transformation through case studies, interviews, panel debates and workshops."
@@ -163,7 +163,27 @@ const Roadmap = () => (
     </div>
     <div className="flex justify-center ">
         <Button>Download The Agenda</Button>
+    </div>
+
+    {/* Summit Highlights Section */}
+    <div className="mt-20">
+      <h1 className="text-center h2 mb-12 text-4xl font-bold">
+        2024 SUMMIT HIGHLIGHTS
+      </h1>
+      
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+        <div className="aspect-video rounded-2xl overflow-hidden">
+          
+          <iframe className="w-full h-full" src="https://www.youtube.com/embed/431fEcQT-EM" title="4th Middle East Enterprise AI &amp; Analytics Summit | KSA Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="aspect-video rounded-2xl overflow-hidden">
+        <iframe className="w-full h-full" src="https://www.youtube.com/embed/ZoMnri8GxgM" title="5th Enterprise AI &amp; Analytics Summit | Qatar Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="aspect-video rounded-2xl overflow-hidden">
+        <iframe className="w-full h-full" src="https://www.youtube.com/embed/kj7vsRasFKw" title="6th Middle East Enterprice AI &amp; Analytics Summit 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
+    </div>
     </div>
     
   </Section>
