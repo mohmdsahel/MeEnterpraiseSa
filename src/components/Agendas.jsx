@@ -1,7 +1,7 @@
 import Button from "./Button";
 import Section from "./Section";
 
-import { check } from "../assets";
+import { check, gradient } from "../assets";
 
 import { collabContent, keyTopics, whyAttend, whySponsor } from "../constants";
 import {  grid } from "../assets";
@@ -147,9 +147,23 @@ const Roadmap = () => (
                 </div>
               </div>
             </div>
+            <Gradient />
          
+            <div className="absolute bottom-[18.25rem] -right-[30.375rem] w-[56.625rem] opacity-60 mix-blend-color-dodge pointer-events-none">
+      <div className="absolute top-1/2 left-1/2 w-[58.85rem] h-[58.85rem] -translate-x-3/4 -translate-y-1/2">
+        <img
+          className="w-full"
+          src={gradient}
+          width={942}
+          height={942}
+          alt="Gradient"
+        />
+      </div>
+    </div>
+          
+            
 
-        <Gradient />
+       
         
       </div>
 
@@ -174,14 +188,14 @@ const Roadmap = () => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
         <div className="aspect-video rounded-2xl overflow-hidden">
           
-          <iframe className="w-full h-full" src="https://www.youtube.com/embed/431fEcQT-EM" title="4th Middle East Enterprise AI &amp; Analytics Summit | KSA Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className="w-full h-full" src="https://www.youtube.com/embed/ZoMnri8GxgM" title="4th Middle East Enterprise AI &amp; Analytics Summit | KSA Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className="aspect-video rounded-2xl overflow-hidden">
-        <iframe className="w-full h-full" src="https://www.youtube.com/embed/ZoMnri8GxgM" title="5th Enterprise AI &amp; Analytics Summit | Qatar Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe className="w-full h-full" src="https://www.youtube.com/embed/kj7vsRasFKw" title="5th Enterprise AI &amp; Analytics Summit | Qatar Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className="aspect-video rounded-2xl overflow-hidden">
-        <iframe className="w-full h-full" src="https://www.youtube.com/embed/kj7vsRasFKw" title="6th Middle East Enterprice AI &amp; Analytics Summit 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <iframe className="w-full h-full" src="https://www.youtube.com/embed/KeraAmOuRG4" title="7th Middle East Enterprise AI &amp; Analytics Summit 2024 | KSA Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
       </div>
     </div>
     </div>
