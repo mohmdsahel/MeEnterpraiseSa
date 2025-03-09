@@ -71,7 +71,11 @@ const AboutUs = () => {
                   {forTheseIndustries.slice(0, 9).map((item, index) => (
                     <motion.li
                       key={index}
-                      className="flex flex-col items-center justify-center"
+                      className={`flex flex-col items-center justify-center ${
+                        index === conferenceTheme.length - 1 && conferenceTheme.length % 2 !== 0
+                          ? 'col-span-2 sm:col-span-1'
+                          : ''
+                      }`}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -108,7 +112,11 @@ const AboutUs = () => {
                   {conferenceTheme.slice(0, 9).map((item, index) => (
                     <motion.li
                       key={index}
-                      className="flex flex-col items-center justify-center"
+                      className={`flex flex-col items-center justify-center ${
+                        index === conferenceTheme.length - 1 && conferenceTheme.length % 2 !== 0
+                          ? 'col-span-2 sm:col-span-1'
+                          : ''
+                      }`}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
