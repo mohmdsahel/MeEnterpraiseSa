@@ -39,7 +39,7 @@ const Collaboration = () => {
             <span className="text-sm sm:text-base text-center tagline font-bold text-white m-2">
               {item.name}
             </span>
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-600/50">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-purple-700/50">
               <img 
                 src={item.icon} 
                 width={150} 
@@ -65,7 +65,7 @@ const Collaboration = () => {
            key={index}
            className="flex flex-col items-center gap-1 w-1/2 sm:w-1/3 md:w-auto"
          >
-           <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-900/80">
+           <div className="rounded-2xl flex items-center mb-4 justify-center bg-purple-700/50">
              <img 
                src={item.icon} 
                width={150} 
@@ -88,7 +88,7 @@ const Collaboration = () => {
             <img
               className="w-full h-full object-cover opacity-20"
               width={800}
-              alt="Smartest AI"
+              alt=""
               height={730}
               src={service1}
             />
@@ -115,7 +115,7 @@ const Collaboration = () => {
                   key={index}
                   className="flex flex-col items-center gap-1 w-[100px] sm:w-[125px] md:w-[150px]"
                 >
-                  <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-900/80 w-full">
+                  <div className="rounded-2xl flex items-center mb-4 justify-center  bg-[#a826ff] w-full">
                     <img 
                       src={item.icon} 
                       width={150} 
@@ -150,7 +150,7 @@ const Collaboration = () => {
                   key={index}
                   className="flex flex-col items-center gap-1 w-[100px] sm:w-[125px] md:w-[150px]"
                 >
-                  <div className="rounded-2xl flex items-center mb-4 justify-center bg-violet-600/50 w-full">
+                  <div className="rounded-2xl flex items-center mb-4 justify-center bg-[#a826ff] w-full">
                     <img 
                       src={item.icon} 
                       width={150} 

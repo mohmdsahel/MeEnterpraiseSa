@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Gradient } from './design/Roadmap';
+
 import { ai, hours, industry, live } from '../assets';
 
 const StatsBox = ({ label, num, bgImage }) => {

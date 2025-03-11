@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { forTheseIndustries, conferenceTheme } from "../constants";
 import { Gradient } from "./design/Services";
 import { service3 } from "../assets";
+import ParticleNetwork from "./ParticleNetwork";
 
 const AboutUs = () => {
   return (
@@ -13,7 +14,7 @@ const AboutUs = () => {
         <div className="relative z-1 items-center min-h-[20rem] mb-8 md:mb-12 bg-conic-gradient p-0.25 rounded-[2.5rem] overflow-hidden">
           <div className="relative p-4 md:p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="relative z-1">
-              <div className="relative md:left-40 z-2 mx-auto">
+              <div className="relative lg:left-40 z-2 mx-auto">
                 <motion.div 
                   className="max-w-[50rem] mx-auto text-center"
                   initial={{ opacity: 0 }}
@@ -65,7 +66,8 @@ const AboutUs = () => {
           <div id="theme" className="relative z-1 grid gap-8 lg:grid-cols-2 mt-12 md:mt-16">
             {/* For These Industries Section */}
             <div className="relative min-h-[28rem] md:min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="py-6 md:py-12 px-4 md:px-8">
+            <ParticleNetwork />
+            <div className="relative z-10 py-6 md:py-12 px-4 md:px-8">
                 <p className="h2 mb-6 md:mb-12 text-xl md:text-2xl text-center">For These Industries</p>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-8 md:gap-8 max-w-[95%] mx-auto">
                   {forTheseIndustries.slice(0, 9).map((item, index) => (
@@ -91,7 +93,7 @@ const AboutUs = () => {
                             width={24}
                             height={24}
                             alt={item.tag}
-                            className="w-7 md:w-9"
+                            className="w-9 md:w-12"
                           />
                         </div>
                       </motion.div>
@@ -106,7 +108,8 @@ const AboutUs = () => {
 
             {/* Conference Theme Section */}
             <div className="relative min-h-[28rem] md:min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden mb-8 md:mb-0">
-              <div className="py-6 md:py-12 px-4 md:px-8">
+              <ParticleNetwork />
+              <div className="relative z-10 py-6 md:py-12 px-4 md:px-8">
                 <p className="h2 mb-6 md:mb-12 text-xl md:text-2xl text-center">Conference Theme</p>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-8 md:gap-8 max-w-[95%] mx-auto">
                   {conferenceTheme.slice(0, 9).map((item, index) => (
@@ -132,7 +135,7 @@ const AboutUs = () => {
                             width={24}
                             height={24}
                             alt={item.name}
-                            className="w-7 md:w-9"
+                            className="w-9 md:w-12"
                           />
                         </div>
                       </motion.div>

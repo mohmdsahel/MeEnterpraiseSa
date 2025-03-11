@@ -56,6 +56,10 @@ import {
   speaker7,
   speaker8,
   speaker9,
+  wsponsor1,
+  wsponsor2,
+  wsponsor3,
+  wsponsor4,
 } from "../assets";
 
 export const navigation = [
@@ -300,11 +304,11 @@ export const conferenceTheme = [
 
   {
     icon: icon1,
-    name: "Artificial Intelligence"
+    name: "AI Transformation"
   },
   {
     icon: icon2,
-    name: "Robotic Process Automation"
+    name: "Generative AI"
   },
   {
     icon: icon3,
@@ -312,7 +316,7 @@ export const conferenceTheme = [
   },
   {
     icon: icon4,
-    name: "Security"
+    name: "Data Protection"
   },
   {
     icon: icon5,
@@ -320,19 +324,19 @@ export const conferenceTheme = [
   },
   {
     icon: icon6,
-    name: "Risk Management "
+    name: "Risk & Compliance"
   },
   {
     icon: icon7,
-    name: "Cognitive Solutions"
+    name: "Data Modernization"
   },
   {
     icon: icon8,
-    name: "Work Force"
+    name: "Responsible AI"
   },
   {  
     icon: icon9,
-    name: "Customer Experience"
+    name: "Customer Intelligence"
   },
 
 ];
@@ -506,21 +510,25 @@ export const whySponsor = [
 
   {
     id: "0",
+    icon: wsponsor1,
     title: "Build viable relationships through f2f meetings:",
     text: " Pre-event access to the delegate profiles to make the right selection of whom you would like to meet with and we then set up your meetings, and ensure they run smoothly onsite."
   },
   {
     id: "1",
+    icon: wsponsor2,
     title:"Pre-qualified end-user audience:" ,
     text: " We pre-qualify all attendees to ensure our audience is actively exploring or involved in implementing AI. "
   },
   {
     id: "3",
+    icon: wsponsor3,
     title: "Brand Visibility:" ,
     text: " Deliver your unique message to this highly targeted group of decision makers, providing a highly qualified platform to build brand awareness. Sponsors receive significant brand exposure through pre-promotion of the event through print and digital exposure. "
     },
   {
     id: "4",
+    icon: wsponsor4,
     title: "Leadership exposure:",
     text: " The event will tackle key issues and challenges that AI adopters are facing. We tailor our agenda’s to answer these questions allowing end users to effectively deploy solutions."
    },

@@ -1,7 +1,7 @@
 import Button from "./Button";
 import Section from "./Section";
 
-import { check, gradient } from "../assets";
+import { check, gradient, wsa } from "../assets";
 
 import { collabContent, keyTopics, whyAttend, whySponsor } from "../constants";
 import {  grid } from "../assets";
@@ -40,7 +40,9 @@ const Roadmap = () => (
             {collabContent.map((item) => (
               <li className="mb-4 py-2" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
+                  <div className="bg-purple-500 rounded-full p-1">
+                    <img src={wsa} width={20} height={20} alt="check" />
+                  </div>
                   <p className="body-2 ml-5">{item.title}</p>
                 </div>
               </li>
@@ -135,8 +137,10 @@ const Roadmap = () => (
             {whySponsor.map((item) => (
               <li className="mb-2 py-2" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
-                  <h6 className="body-2 ml-5">{item.title}</h6>
+                  <div className="bg-purple-00 rounded-full p-1">
+                    <img src={item.icon} width={40} height={40} alt="check" />
+                    </div>
+                  <h6 className="body-2 ml-">{item.title}</h6>
                 </div>
                 {item.text && (
                   <p className="body-2 mt-3 text-n-4">{item.text}</p>

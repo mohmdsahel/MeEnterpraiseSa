@@ -1,14 +1,20 @@
 import logo from "./logo.png";
 import check from "./check.svg";
-import key1 from "./keytopic/key1.png";
-import key2 from "./keytopic/key2.png";
-import key3 from "./keytopic/key3.png";
-import key4 from "./keytopic/key4.png";
-import key5 from "./keytopic/key5.png";
-import key6 from "./keytopic/key6.png";
-import key7 from "./keytopic/key7.png";
-import key8 from "./keytopic/key8.png";
-import key9 from "./keytopic/key9.png";
+import wsa from "./agendas/wsa.png";
+import wsponsor1 from "./agendas/wsponsor-1.png";
+import wsponsor2 from "./agendas/wsponsor-2.png";
+import wsponsor3 from "./agendas/wsponsor-3.png";
+import wsponsor4 from "./agendas/wsponsor-4.png";
+import key1 from "./agendas/key1.png";
+import key2 from "./agendas/key2.png";
+import key3 from "./agendas/key3.png";
+import key4 from "./agendas/key4.png";
+import key5 from "./agendas/key5.png";
+import key6 from "./agendas/key6.png";
+import key7 from "./agendas/key7.png";
+import key8 from "./agendas/key8.png";
+import key9 from "./agendas/key9.png";
+
 
 
 import gradient from "./gradient.png";
@@ -104,6 +110,10 @@ export {
   key7,
   key8,
   key9,
+  wsponsor1,
+  wsponsor2,
+  wsponsor3,
+  wsponsor4,
    
   spotlight,
 
@@ -152,6 +162,7 @@ export {
   logo,
   check,
   check2,
+  wsa,
  
  
 
