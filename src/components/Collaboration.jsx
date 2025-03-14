@@ -21,7 +21,7 @@ const Collaboration = () => {
           xl:min-h-[46rem]">
           <div className="relative z-1">
             
-          <Heading className="text-center" title="Series Partners" />
+          <Heading className="text-center" title="Strategic Thought Leadership Partners - 2025" />
 
 <div className="py-6 px-2 xl:px-4">
   
@@ -39,11 +39,11 @@ const Collaboration = () => {
             <span className="text-sm sm:text-base text-center tagline font-bold text-white m-2">
               {item.name}
             </span>
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-purple-700/50">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-200/80 to-purple-900/70 ">
               <img 
                 src={item.icon} 
-                width={150} 
-                height={150} 
+                width={170} 
+                height={170} 
                
                 className="object-contain" 
               />
@@ -65,11 +65,11 @@ const Collaboration = () => {
            key={index}
            className="flex flex-col items-center gap-1 w-1/2 sm:w-1/3 md:w-auto"
          >
-           <div className="rounded-2xl flex items-center mb-4 justify-center bg-purple-700/50">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-br from-slate-200/80 to-purple-900/70 ">
              <img 
                src={item.icon} 
-               width={150} 
-               height={150}
+               width={170} 
+               height={170}
                className="object-contain" 
              />
            </div>

@@ -13,7 +13,7 @@ const Hero = () => {
     <Section
       className="min-h-screen pt-[8rem] sm:pt-[8rem] md:pt-[12rem] -mt-[8.25rem] relative overflow-hidden flex flex-col justify-center"
       crosses
-      crossesOffset="lg:translate-y-[5.25rem]"
+     
       customPaddings
       id="hero"
     >
@@ -38,7 +38,7 @@ const Hero = () => {
           </h1>
           <h5 className="tagline font-bold text-xs sm:text-base mb-3 sm:mb-6 text-center text-n-1">
             <i className="fa-solid fa-location-dot"></i> Riyadh, Saudi Arabia <br/>
-            1st May 2025
+            <i className="fa-solid fa-calendar"></i> 1st May 2025
           </h5>
           <div>
             <Countdown/>

@@ -2,8 +2,17 @@ import Button from "./Button";
 import { GradientLight } from "./design/Benefits";
 
 import Section from "./Section";
+import { useState } from "react";
+import ContactForm from "./ContactForm";
 
-const Contact = () => {
+const Contact = () => { 
+  const [showModal, setShowModal] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    setShowModal(false);
+  };
   return (
     <Section id="contact" crosses>
       <GradientLight/>
@@ -51,15 +60,24 @@ const Contact = () => {
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-n-8/50 to-n-8/0 pointer-events-none"></div>
           </div>
+
+         
+
         </div>
 
         <Button
           className="flex w-full  mx-auto"
-          href="mailto:contact@"
+          onClick={() => setShowModal(true)}
           white={true}
         >
           Get in Touch
         </Button>
+
+        <ContactForm 
+          showModal={showModal}
+          onClose={() => setShowModal(false)}
+          onSubmit={handleSubmit}
+        />
       </div>
     </Section>
   );

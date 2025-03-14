@@ -83,7 +83,7 @@ import service4 from "./services/service-4.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import spotlight from "./spotlight.png";
+
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -114,8 +114,7 @@ export {
   wsponsor2,
   wsponsor3,
   wsponsor4,
-   
-  spotlight,
+
 
   partner1,
   partner2,
