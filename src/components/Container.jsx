@@ -62,7 +62,7 @@ const Stats = () => {
     <div className="stats grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       <StatsBox
         label="AI & Analytics Thought Leaders"
-        num="15"
+        num="30"
         bgImage={stats}
         startTime={0}
       />
