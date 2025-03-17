@@ -1,21 +1,37 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { ai, hours, industry, live } from '../assets';
+import { stats } from '../assets';
 
-const StatsBox = ({ label, num, bgImage }) => {
+const StatsBox = ({ label, num, bgImage, startTime = 0 }) => {
+  const videoRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = startTime;
+    }
+  }, [startTime]);
+
   return (
     <motion.div
       className="stats__box aspect-square p-4 border border-n-6 rounded-lg relative overflow-hidden"
       whileHover="hover"
       initial="initial"
     >
-      {/* Background image container */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center z-0 opacity-30"
-        style={{ backgroundImage: `url(${bgImage})` }}
-      ></div>
+      <div className="absolute inset-0 z-0 opacity-30 overflow-hidden">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src={bgImage} type="video/mp4" />
+        </video>
+      </div>
       
+      {/* Rest of the component remains unchanged */}
       <motion.div
         className="absolute inset-0 bg-purple-500 z-5"
         variants={{
@@ -47,24 +63,27 @@ const Stats = () => {
       <StatsBox
         label="AI & Analytics Thought Leaders"
         num="15"
-        bgImage={ai}
+        bgImage={stats}
+        startTime={0}
       />
       <StatsBox
         label="LIVE/Tech DEMOS/EXHIBITORS"
         num="15"
-        bgImage={live}
+        bgImage={stats}
+        startTime={5}
       />
       <StatsBox
         label="INDUSTRY LEADERS ATTENDING"
         num="300"
-        bgImage={industry}
+        bgImage={stats}
+        startTime={10}
       />
       <StatsBox
         label="HOURS OF INSIGHTFUL SESSIONS"
         num="7"
-        bgImage={hours}
+        bgImage={stats}
+        startTime={15}
       />
-    
     </div>
   );
 };

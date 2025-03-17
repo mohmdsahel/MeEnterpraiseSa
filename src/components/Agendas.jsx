@@ -108,10 +108,10 @@ const Roadmap = () => {
                           alt="Grid"
                         />
                       </div>
-                      <div className="relative z-1">
-                        
+                      
+                     
 
-                        
+                      <div className="relative z-1">
                         <h4 className="h3 mb-4">Key topics</h4>
                         <ul className=" mb-10 md:mb-14">
                   {keyTopics.map((item) => (
@@ -164,7 +164,31 @@ const Roadmap = () => {
                   </div>
                   <Gradient />
                
-                  <div className="absolute bottom-[18.25rem] -right-[30.375rem] w-[56.625rem] opacity-60 mix-blend-color-dodge pointer-events-none">
+                  <div className="absolute bottom-[18.25rem] -right-[30.375rem] w-[56.625rem] opacity-40 mix-blend-color-dodge pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 w-[58.85rem] h-[58.85rem] -translate-x-3/4 -translate-y-1/2">
+              <img
+                className="w-full"
+                src={gradient}
+                width={942}
+                height={942}
+                alt="Gradient"
+              />
+            </div>
+          </div>
+
+          <div className="absolute top-[18.25rem] -right-[30.375rem] w-[56.625rem] opacity-40 mix-blend-color-dodge pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 w-[58.85rem] h-[58.85rem] -translate-x-3/4 -translate-y-1/2">
+              <img
+                className="w-full"
+                src={gradient}
+                width={942}
+                height={942}
+                alt="Gradient"
+              />
+            </div>
+          </div>
+                
+          <div className="absolute bottom-[18.25rem] -left-[30.375rem] w-[56.625rem] opacity-40 mix-blend-color-dodge pointer-events-none">
             <div className="absolute top-1/2 left-1/2 w-[58.85rem] h-[58.85rem] -translate-x-3/4 -translate-y-1/2">
               <img
                 className="w-full"

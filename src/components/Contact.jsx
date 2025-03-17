@@ -4,6 +4,7 @@ import { GradientLight } from "./design/Benefits";
 import Section from "./Section";
 import { useState } from "react";
 import ContactForm from "./ContactForm";
+import { Gradient } from "./design/Roadmap";
 
 const Contact = () => { 
   const [showModal, setShowModal] = useState(false);

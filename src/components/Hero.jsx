@@ -36,14 +36,14 @@ const Hero = () => {
             10th Middle East Enterprise{' '}
             AI & Analytics Summit
           </h1>
-          <h5 className="tagline font-bold text-xs sm:text-base mb-3 sm:mb-6 text-center text-n-1">
+          <h5 className="tagline font-extrabold text-xs sm:text-base mb-3 sm:mb-6 text-center text-n-1">
             <i className="fa-solid fa-location-dot"></i> Riyadh, Saudi Arabia <br/>
             <i className="fa-solid fa-calendar"></i> 1st May 2025
           </h5>
           <div>
             <Countdown/>
             <div className="relative z-10 mt-3 sm:mt-6">
-              <h5 className="tagline text-xs sm:text-base font-bold mb-3 sm:mb-6 text-center text-n-1 px-2">
+              <h5 className="tagline text-sm sm:text-lg font-extrabold mb-3 sm:mb-6 text-center text-n-1 px-2">
                 Accelerating Innovation in Enterprises with Applied AI & Analytics Strategies
               </h5>
             </div>

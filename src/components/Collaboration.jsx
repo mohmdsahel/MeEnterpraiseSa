@@ -21,7 +21,7 @@ const Collaboration = () => {
           xl:min-h-[46rem]">
           <div className="relative z-1">
             
-          <Heading className="text-center" title="Strategic Thought Leadership Partners - 2025" />
+          <Heading className="text-center bg-gradient-to-br from-slate-100 to-slate-500 bg-clip-text text-transparent " title="Strategic Thought Leadership Partners - 2025" />
 
 <div className="py-6 px-2 xl:px-4">
   
@@ -30,20 +30,20 @@ const Collaboration = () => {
     
     <div >
       <ul className="flex flex-row flex-wrap justify-center gap-4 
-        sm:gap-6 md:flex-nowrap">
+        sm:gap-6">
         {seriesPartners.map((item, index) => (
           <li
             key={index}
             className="flex flex-col items-center gap-1 w-full sm:w-1/2 md:w-auto"
           >
-            <span className="text-sm sm:text-base text-center tagline font-bold text-white m-2">
+            <span className="text-sm sm:text-base text-center tagline font-extrabold text-white m-2">
               {item.name}
             </span>
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-200/80 to-purple-900/70 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/80 to-purple-400/70 ">
               <img 
                 src={item.icon} 
-                width={170} 
-                height={170} 
+                width={180} 
+                height={180} 
                
                 className="object-contain" 
               />
@@ -56,20 +56,20 @@ const Collaboration = () => {
 
  
    <div className="mt-8">
-     <h3 className="text-lg sm:text-xl text-center tagline font-bold text-white mb-6">
+     <h4 className="text-sm sm:text-base text-center tagline font-extrabold text-white mb-6">
        Exhibiting Partners
-     </h3>
+     </h4>
      <ul className="flex flex-row flex-wrap justify-center gap-4 sm:gap-6">
        {exhibitingPartners.map((item, index) => (
          <li
            key={index}
            className="flex flex-col items-center gap-1 w-1/2 sm:w-1/3 md:w-auto"
          >
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-br from-slate-200/80 to-purple-900/70 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/80 to-purple-400/70 ">
              <img 
                src={item.icon} 
-               width={170} 
-               height={170}
+               width={180} 
+               height={180}
                className="object-contain" 
              />
            </div>
@@ -95,7 +95,7 @@ const Collaboration = () => {
           </div>
         </div>
 
-        <Heading className="mt-10 text-center" title="Series Partners" />
+        <Heading className="mt-10 text-center " title="Series Partners" />
 
         <div className="overflow-hidden container w-full">
           <motion.div

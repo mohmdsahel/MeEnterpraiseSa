@@ -20,10 +20,7 @@ import key9 from "./agendas/key9.png";
 import gradient from "./gradient.png";
 
 import grid from "./grid.png";
-import ai from "./Ai.png";
-import live from "./Live.png";
-import industry from "./Industry.png";
-import hours from "./Hours.png";
+import stats from "./agendas/stats.webm";
 
 import check2 from "./check-02.svg";
 
@@ -168,10 +165,7 @@ export {
   gradient,
 
   grid,
-  ai,
-  live,
-  industry,
-  hours,
+ stats,
 
   plusSquare,
   video,
