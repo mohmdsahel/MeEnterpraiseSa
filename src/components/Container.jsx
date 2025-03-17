@@ -18,7 +18,7 @@ const StatsBox = ({ label, num, bgImage, startTime = 0 }) => {
       whileHover="hover"
       initial="initial"
     >
-      <div className="absolute inset-0 z-0 opacity-30 overflow-hidden">
+      <div className="absolute inset-0 z-0 opacity-50 overflow-hidden">
         <video
           ref={videoRef}
           autoPlay
@@ -62,7 +62,7 @@ const Stats = () => {
     <div className="stats grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       <StatsBox
         label="AI & Analytics Thought Leaders"
-        num="30"
+        num="35"
         bgImage={stats}
         startTime={0}
       />
