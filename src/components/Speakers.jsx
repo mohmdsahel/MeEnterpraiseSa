@@ -1,11 +1,10 @@
 import { motion, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useMemo } from "react";
 import { benefits } from "../constants";
 import Section from "./Section";
-import { heroBackground, linkedin } from "../assets";
+import { linkedin, speakerbg } from "../assets";
 import LampContainer from "./LampContainer";
-
-const mergeClasses = (...classes) => classes.filter(Boolean).join(' ');
+import SeriesCardDemo from "./SeriesCard";
 
 const SpeakerHeading = () => {
   return (
@@ -33,13 +32,20 @@ const SpeakerCard = ({ index, title, text, image, organization, link, containerR
     offset: ["start end", "start start"],
   });
 
+  // Optimized sticky positioning with useMemo
+  const stickyTop = useMemo(() => 
+    `${window.innerWidth < 640 ? index * 5 + 10 : index * 3 + 50}px`,
+    [index]
+  );
+
   return (
     <motion.div
       ref={cardRef}
       className="w-[75%] sm:w-full max-w-4xl mx-auto px-1 sm:px-2 md:px-6 mb-6 sm:mb-12 md:mb-24"
       style={{
         position: "sticky",
-        top: `${window.innerWidth < 640 ? index * 5 + 10 : index * 3 + 50}px`,
+        top: stickyTop,
+        willChange: 'transform' // Add will-change for better performance
       }}
     >
       <motion.div
@@ -98,8 +104,12 @@ const SpeakerCards = ({ containerRef }) => {
   return (
     <div
       ref={containerRef}
-      className="relative h-full overflow-auto overscroll-auto px-2 sm:px-4 pb-20 sm:pb-0"
-      style={{ scrollbarWidth: "none" }}
+      className="relative h-full overflow-auto overscroll-auto px-2 sm:px-4 pb-20 sm:pb-0 mask-linear-gradient"
+      style={{ 
+        scrollbarWidth: "none",
+        maskImage: "linear-gradient(to bottom, white 70%, transparent 100%)",
+        WebkitMaskImage: "linear-gradient(to bottom, white 70%, transparent 100%)"
+      }}
     >
       {benefits.map(({ title, text, organization, imageUrl, link }, i) => (
         <SpeakerCard
@@ -113,7 +123,7 @@ const SpeakerCards = ({ containerRef }) => {
           containerRef={containerRef}
         />
       ))}
-     
+      
       <div className="h-[100vh] sm:h-0"></div>
     </div>
   );
@@ -123,28 +133,42 @@ const SpeakerCards = ({ containerRef }) => {
 export default function Speaker() {
   const containerRef = useRef(null);
 
+  // Add memoization to prevent unnecessary re-renders
+  const MemoizedSpeakerCards = useMemo(() => 
+    <SpeakerCards containerRef={containerRef} />,
+    []
+  );
+
   return (
     <Section crosses className="!p-0">
       <div className="min-h-[100svh] relative overflow-hidden flex flex-col" id="speakers">
-     
-         {/* <div 
-          className="absolute inset-0 w-full h-full z-0"
+        <div className="absolute inset-0 w-full h-full z-0" />
+        
+        {/* Add loading="eager" to video for faster load */}
+        <video 
+          src={speakerbg} 
+          autoPlay 
+          muted 
+          loop 
+          loading="eager"
+          className="absolute inset-0 w-full h-full opacity-30 object-cover z-0"
         />
-        <video src={heroBackground} autoPlay muted loop className="absolute inset-0 w-full h-full opacity-30 object-cover z-0" />
     
-        <div 
-          />  */}
-
-        <div className="sticky top-[60px] z-20 pt-1  w-full">
+        <div className="sticky top-[60px] z-20 pt-1 w-full">
           <SpeakerHeading />
         </div>
         
-        <div className="sm:block absolute inset-0 z-[2] h-[30vh] sm:h-[45vh] md:h-[50vh] md:top-0  top-[-200px]">
+        <div className="sm:block absolute inset-0 z-[2] h-[30vh] sm:h-[45vh] md:h-[50vh] md:top-0 top-[-200px]">
           <LampContainer className="w-full h-full" />
         </div>
 
-        <div className="w-full relative z-[3] h-[85vh] sm:h-[20vh] md:h-[50vh] mt-32 sm:mt-4 md:mt-auto">
-          <SpeakerCards containerRef={containerRef} />
+        <div className="w-full relative z-[3] h-[65vh] sm:h-[20vh] mb-4 md:h-[50vh] mt-56 sm:mt-48 md:mt-64">
+          {MemoizedSpeakerCards}
+        </div>
+        
+        {/* Add the SeriesCardDemo component */}
+        <div className="w-full relative z-[4] mt-12 mb-20">
+          <SeriesCardDemo />
         </div>
       </div>
     </Section>

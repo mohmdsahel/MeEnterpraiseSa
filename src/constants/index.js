@@ -5,10 +5,7 @@ import {
  
  
  
-  discordBlack,
-  facebook,
-  instagram,
-  telegram,
+
   twitter,
   
   partner1,
@@ -61,6 +58,35 @@ import {
   wsponsor3,
   wsponsor4,
   linkedin,
+  series1,
+  series2,
+  series3,
+  series4,
+  series5,
+  series6,
+  series7,
+  series8,
+  series9,
+  series10,
+  series11,
+  series12,
+  series13,
+  series14,
+  series15,
+  series16,
+  series17,
+  series18,
+  series19,
+  series20,
+  series21,
+  series22,
+  series23,
+  series24,
+  series25,
+  series26,
+  series27,
+  series28,
+  series29,
 } from "../assets";
 
 export const navigation = [
@@ -146,119 +172,6 @@ export const exhibitingPartners = [
 ];
 
 
-export const SlidingPartnersRight = [
-
- 
-  {
-    icon: partner1,
-    
-  },
-  {
-    icon: partner2,
-   
-  },
-  {
-    icon: partner3,
-    
-  },
-  {
-    icon: partner4,
-    
-  },
-  {  
-    icon: partner5,
-  
-  },
-  {
-    icon: partner6,
-   
-  },
-  {
-    icon: partner7,
-    
-  },
-  {
-    icon: partner8,
-    
-  },
-  {  
-    icon: partner9,
-  
-  },
-  {
-    icon: partner1,
-    
-  },
-  {
-    icon: partner2,
-   
-  },
-  {
-    icon: partner3,
-    
-  },
-  {
-    icon: partner4,
-    
-  },
-  {  
-    icon: partner5,
-  
-  },
-  {
-    icon: partner6,
-   
-  },
-  {
-    icon: partner7,
-    
-  },
-  {
-    icon: partner8,
-    
-  },
-  {  
-    icon: partner9,
-  
-  },
-  {
-    icon: partner1,
-    
-  },
-  {
-    icon: partner2,
-   
-  },
-  {
-    icon: partner3,
-    
-  },
-  {
-    icon: partner4,
-    
-  },
-  {  
-    icon: partner5,
-  
-  },
-  {
-    icon: partner6,
-   
-  },
-  {
-    icon: partner7,
-    
-  },
-  {
-    icon: partner8,
-    
-  },
-  {  
-    icon: partner9,
-  
-  },
-
-];
 
 
 export const forTheseIndustries = [
@@ -666,12 +579,185 @@ export const benefits = [
     link:  "https://www.linkedin.com/",
     imageUrl: speaker9,
   },
+];
  
  
  
- 
- 
-
+export const testimonials = [
+  {
+    img: series1,
+    title: "Group Chief Information Officer",
+    name: "RAED AYYOUB",
+    role: "Riyadh Cables Group",
+  },
+  {
+    img: series2,
+    title: "CIO",
+    name: "PIYUSH CHOWHAN",
+    role: "Confidential",
+  },
+  {
+    img: series3,
+    title: "Chief Architect & Solutions Advisor",
+    name: "WAQAS AHMAD",
+    role: "Government Entity",
+  },
+  {
+    img: series4,
+    title: "Director, Business Intelligence and Data Management",
+    name: "BADER ALJUNDI",
+    role: "King Abdullah Economic City",
+  },
+  {
+    img: series5,
+    title: "Director of Data & Analytics",
+    name: "ELVID MUSLIM",
+    role: "ROSHN",
+  },
+  {
+    img: series6,
+    title: "Director Data & Artificial Intelligence",
+    name: "NAWAF ALGHAMDI",
+    role: "Council of Health Insurance",
+  },
+  {
+    img: series7,
+    title: "VP Technology & Digital Transformation",
+    name: "DR. MAHER ALDUKHEIL",
+    role: "Hail Health Cluster",
+  },
+  {
+    img: series8,
+    title: "Head of Risk Management and Compliance",
+    name: "RAMYAN ALRAMYAN",
+    role: "Saudi Entertainment Ventures",
+  },
+  {
+    img: series9,
+    title: "GM - Group IT & Digital Transformation",
+    name: "MAZEN KHALIL",
+    role: "Abdullah Al Othaim Investment Co",
+  },
+  {
+    img: series10,
+    title: "General Manager Business Intelligence and Decision Support",
+    name: "WALAA ALNASSER",
+    role: "Riyadh Municipality",
+  },
+  {
+    img: series11,
+    title: "Head of Enterprise Information Technology",
+    name: "DR. FAISAL AL-NASSIR",
+    role: "Almarai",
+  },
+  {
+    img: series12,
+    title: "Head of Data Science, Board Member",
+    name: "HANI ALQUHAYZ",
+    role: "Saudi Society for Data Science (SSDS)",
+  },
+  {
+    img: series13,
+    title: "IT Planning & Digitization Senior Manager",
+    name: "YOUSEF AL HARBI",
+    role: "Saudi Arabia Railways",
+  },
+  {
+    img: series14,
+    title: "Data Analytics & AI Expert Team Lead",
+    name: "NOURAH ZIYAD ALGHAMDI",
+    role: "Communications, Space & Technology Commission",
+  },
+  {
+    img: series15,
+    title: "Chief Transformation Officer",
+    name: "DR. IBRAHEEM SHEERAH",
+    role: "Saudi Arabian Airlines Holding",
+  },
+  {
+    img: series16,
+    title: "Strategic Advisor",
+    name: "STEVE PLIMSOLL",
+    role: "National Center for AI - SDAIA",
+  },
+  {
+    img: series17,
+    title: "Vice President, Data",
+    name: "DION THORPE",
+    role: "Bahri",
+  },
+  {
+    img: series18,
+    title: "Director of AI Center of Advanced Studies",
+    name: "DR. HEBAH ELGIBREEN",
+    role: "King Saud University",
+  },
+  {
+    img: series19,
+    title: "Analytics Innovation Director",
+    name: "ADEEM ALMURAYI",
+    role: "stc",
+  },
+  {
+    img: series20,
+    title: "Head of New Technologies Assessment",
+    name: "YAZID ALAZWARI",
+    role: "SFDA",
+  },
+  {
+    img: series21,
+    title: "Director of Innovation Lab",
+    name: "DR. HEND ALJOBAILY",
+    role: "General Authority For Statistics",
+  },
+  {
+    img: series22,
+    title: "Head of Data Strategy, Governance & Value Realization",
+    name: "GHADA ALMUTAIRI",
+    role: "Aramco",
+  },
+  {
+    img: series23,
+    title: "RVP Emerging Markets",
+    name: "STEPHAN PAUL",
+    role: "DataRobot",
+  },
+  {
+    img: series24,
+    title: "CTO",
+    name: "EQBAL QUR'AN",
+    role: "MRSOOL",
+  },
+  {
+    img: series25,
+    title: "Group CIO",
+    name: "SULIMAN KHADER",
+    role: "Al Faisaliah Group",
+  },
+  {
+    img: series26,
+    title: "Chief Customer & Data Officer",
+    name: "MAZHAR SOORTY",
+    role: "Petromin Corporation",
+  },
+  {
+    img: series27,
+    title: "Director of development and strategic planning",
+    name: "ESSAM ALBISHI",
+    role: "Saudi Irrigation Organization",
+  },
+  {
+    img: series28,
+    title: "Chief Commercial Officer",
+    name: "ABDULAZIZ ALDAWOOD",
+    role: "AlRaedah Finance",
+  },
+  {
+    img: series29,
+    title: "Head of Digital Venturing & AI",
+    name: "ABDULLAH ALLUHAIB",
+    role: "Saudi Electricity Company",
+  },
 ];
 
 export const socials = [
@@ -688,4 +774,82 @@ export const socials = [
     url: "#",
   },
   
+];
+
+export const SlidingPartnersRight = [
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/06.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/03.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/08.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/07.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/02.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/20.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/12.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/15.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/1.png"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/4.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/10.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/16.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/11.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/21.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/18.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/17.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/22.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/8.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/8.png"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/9.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/2.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/14.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/5.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/past/19.jpg"
+  },
+  {
+    icon: "https://meenterpriseai.com/sa/images/partner/09.jpg"
+  }
 ];

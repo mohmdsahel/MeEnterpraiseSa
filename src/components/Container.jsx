@@ -1,33 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { stats } from '../assets';
+import {  stats1, stats2, stats3, stats4 } from '../assets';
 
-const StatsBox = ({ label, num, bgImage, startTime = 0 }) => {
-  const videoRef = React.useRef(null);
-
-  React.useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.currentTime = startTime;
-    }
-  }, [startTime]);
-
+const StatsBox = ({ label, num, bgImage }) => {
   return (
     <motion.div
       className="stats__box aspect-square p-4 border border-n-6 rounded-lg relative overflow-hidden"
       whileHover="hover"
       initial="initial"
     >
+      {/* Video background container */}
       <div className="absolute inset-0 z-0 opacity-50 overflow-hidden">
         <video
-          ref={videoRef}
           autoPlay
           muted
           loop
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src={bgImage} type="video/mp4" />
+          <source src={bgImage} type="video/webm" />
         </video>
       </div>
       
@@ -62,27 +54,27 @@ const Stats = () => {
     <div className="stats grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       <StatsBox
         label="AI & Analytics Thought Leaders"
-        num="35"
-        bgImage={stats}
-        startTime={0}
+        num="30"
+        bgImage={stats1}
+        
       />
       <StatsBox
         label="LIVE/Tech DEMOS/EXHIBITORS"
         num="15"
-        bgImage={stats}
-        startTime={5}
+        bgImage={stats2}
+       
       />
       <StatsBox
         label="INDUSTRY LEADERS ATTENDING"
         num="300"
-        bgImage={stats}
-        startTime={10}
+        bgImage={stats3}
+        
       />
       <StatsBox
         label="HOURS OF INSIGHTFUL SESSIONS"
         num="7"
-        bgImage={stats}
-        startTime={15}
+        bgImage={stats4}
+       
       />
     </div>
   );
