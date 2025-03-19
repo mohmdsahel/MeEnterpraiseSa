@@ -61,6 +61,7 @@ export const SeriesCard = ({
 
   return (
     <div
+    
       ref={containerRef}
       className={mergeClasses(
         "relative z-20 max-w-7xl overflow-hidden",
