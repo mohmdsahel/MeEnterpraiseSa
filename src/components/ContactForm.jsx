@@ -49,20 +49,7 @@ const ContactForm = ({ onSubmit, onClose, showModal }) => {
                       className="w-full px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg bg-white/5 border border-white/10 focus:border-[#C019FF] outline-none text-white text-xs sm:text-sm"
                     />
                   </div>
-                  <div className="w-full">
-                    <label className="block text-n-4 mb-1 text-xs">Preferred Date:</label>
-                    <input 
-                      type="date"
-                      className="w-full px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg bg-white/5 border border-white/10 focus:border-[#C019FF] outline-none text-white text-xs sm:text-sm"
-                    />
-                  </div>
-                  <div className="w-full">
-                    <label className="block text-n-4 mb-1 text-xs">Preferred Time:</label>
-                    <input 
-                      type="time"
-                      className="w-full px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg bg-white/5 border border-white/10 focus:border-[#C019FF] outline-none text-white text-xs sm:text-sm"
-                    />
-                  </div>
+                
                 </div>
                 
                 <div className="w-full">

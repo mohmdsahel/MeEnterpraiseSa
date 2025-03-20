@@ -12,9 +12,9 @@ const Collaboration = () => {
   return (
     <Section id="partners" crosses>
       <GradientLight/>
-      <div className="container">
+      <div className="container ">
        
-        <div className="relative z-1 flex flex-col items-center min-h-[20rem] mb-5 p-4 border border-n-1/10 rounded-3xl overflow-hidden 
+        <div className="relative z-1 bg-gradient-to-tr from-purple-100/80 to-purple-600/70  flex flex-col items-center min-h-[20rem] mb-5 p-4 border border-n-1/10 rounded-3xl overflow-hidden 
           sm:p-3 
           md:min-h-[30rem] md:p-4 
           lg:p-10 lg:min-h-[39rem] 
@@ -39,7 +39,7 @@ const Collaboration = () => {
             <span className="text-sm sm:text-base text-center tagline font-extrabold text-white m-2">
               {item.name}
             </span>
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/80 to-purple-400/70 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center  ">
               <img 
                 src={item.icon} 
                 width={180} 
@@ -65,7 +65,7 @@ const Collaboration = () => {
            key={index}
            className="flex flex-col items-center gap-1 w-1/2 sm:w-1/3 md:w-auto"
          >
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/80 to-purple-400/70 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center  ">
              <img 
                src={item.icon} 
                width={180} 
@@ -86,7 +86,7 @@ const Collaboration = () => {
           </div>
           <div className="absolute left-0 top-0 w-full h-full pointer-events-none">
             <img
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover opacity-10"
               width={800}
               alt=""
               height={730}
