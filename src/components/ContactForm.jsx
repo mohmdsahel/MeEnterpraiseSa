@@ -65,40 +65,8 @@ const ContactForm = ({ onSubmit, onClose, showModal }) => {
                   </select>
                 </div>
                 
-                <div className="w-full">
-                  <label className="block text-n-4 mb-1 text-xs">Time Zone:</label>
-                  <select 
-                    className="w-full px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg bg-white/5 border border-white/10 focus:border-[#C019FF] outline-none text-white text-xs sm:text-sm [&>option]:bg-[#47176c]"
-                  >
-                    <option value=""></option>
-                    <option value="UTC-12:00">(GMT-12:00) International Date Line West</option>
-                    <option value="UTC-11:00">(GMT-11:00) Midway Island, Samoa</option>
-                    <option value="UTC-10:00">(GMT-10:00) Hawaii</option>
-                    <option value="UTC-09:00">(GMT-09:00) Alaska</option>
-                    <option value="UTC-08:00">(GMT-08:00) Pacific Time (US & Canada)</option>
-                    <option value="UTC-07:00">(GMT-07:00) Mountain Time (US & Canada)</option>
-                    <option value="UTC-06:00">(GMT-06:00) Central Time (US & Canada)</option>
-                    <option value="UTC-05:00">(GMT-05:00) Eastern Time (US & Canada)</option>
-                    <option value="UTC-04:00">(GMT-04:00) Atlantic Time (Canada)</option>
-                    <option value="UTC-03:00">(GMT-03:00) Buenos Aires, Georgetown</option>
-                    <option value="UTC-02:00">(GMT-02:00) Mid-Atlantic</option>
-                    <option value="UTC-01:00">(GMT-01:00) Azores, Cape Verde Islands</option>
-                    <option value="UTC+00:00">(GMT+00:00) London, Dublin, Edinburgh</option>
-                    <option value="UTC+01:00">(GMT+01:00) Paris, Amsterdam, Berlin</option>
-                    <option value="UTC+02:00">(GMT+02:00) Cairo, Helsinki, Athens</option>
-                    <option value="UTC+03:00">(GMT+03:00) Moscow, Baghdad, Kuwait</option>
-                    <option value="UTC+04:00">(GMT+04:00) Abu Dhabi, Dubai, Baku</option>
-                    <option value="UTC+05:00">(GMT+05:00) Karachi, Tashkent</option>
-                    <option value="UTC+05:30">(GMT+05:30) Mumbai, Kolkata, Chennai</option>
-                    <option value="UTC+06:00">(GMT+06:00) Dhaka, Almaty</option>
-                    <option value="UTC+07:00">(GMT+07:00) Bangkok, Jakarta</option>
-                    <option value="UTC+08:00">(GMT+08:00) Beijing, Singapore, Hong Kong</option>
-                    <option value="UTC+09:00">(GMT+09:00) Tokyo, Seoul, Osaka</option>
-                    <option value="UTC+10:00">(GMT+10:00) Sydney, Melbourne, Brisbane</option>
-                    <option value="UTC+11:00">(GMT+11:00) Solomon Is., New Caledonia</option>
-                    <option value="UTC+12:00">(GMT+12:00) Fiji, Auckland, Wellington</option>
-                  </select>
-                </div>
+               
+                
                 
                 <div className="w-full">
                   <label className="block text-n-4 mb-1 text-xs">Message:</label>
