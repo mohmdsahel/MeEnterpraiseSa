@@ -186,7 +186,8 @@ const SpeakerCards = ({ containerRef }) => {
       style={{ 
         scrollbarWidth: "none",
         maskImage: "linear-gradient(to bottom, white 70%, transparent 100%)",
-        WebkitMaskImage: "linear-gradient(to bottom, white 70%, transparent 100%)"
+        WebkitMaskImage: "linear-gradient(to bottom, white 70%, transparent 100%)",
+        height: "calc(100vh - 20rem)"
       }}
     >
       {benefits.map(({ title, text, organization, imageUrl, link }, i) => (
@@ -202,7 +203,7 @@ const SpeakerCards = ({ containerRef }) => {
         />
       ))}
       
-      <div className="h-[100vh] sm:h-0"></div>
+      <div className="h-[50vh] sm:h-[30vh]"></div>
     </div>
   );
 };
@@ -236,7 +237,7 @@ export default function Speaker() {
           <LampContainer />
         </div>
 
-        <div className="w-full absolute z-[3] h-[65vh] sm:h-[50vh] top-[30%] sm:top-1/3">
+        <div className="w-full absolute z-[3] h-[65vh] sm:h-[70vh] top-[30%] sm:top-[20%]">
           {MemoizedSpeakerCards}
         </div>
 
