@@ -853,3 +853,39 @@ export const SlidingPartnersRight = [
     icon: "https://meenterpriseai.com/sa/images/partner/09.jpg"
   }
 ];
+
+export const SlidingPartnersLeft = [
+  {
+    icon: "https://meenterpriseai.com/sa/images/media/1.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/2.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/3.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/4.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/5.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/6.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/7.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/8.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/9.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/10.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/11.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/12.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/13.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/14.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/15.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/16.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/17.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/18.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/19.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/20.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/21.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/22.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/23.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/24.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/25.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/26.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/27.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/28.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/29.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/30.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/31.jpg" },
+    { icon: "https://meenterpriseai.com/sa/images/media/32.jpg" }
+];

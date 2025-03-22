@@ -1,6 +1,6 @@
 import { service1, } from "../assets";
 
-import { exhibitingPartners, seriesPartners, SlidingPartnersRight } from "../constants";
+import { exhibitingPartners, seriesPartners, SlidingPartnersLeft, SlidingPartnersRight } from "../constants";
 
 import { GradientLight } from "./design/Benefits";
 import Heading from "./Heading";
@@ -39,7 +39,7 @@ const Collaboration = () => {
             <span className="text-sm sm:text-base text-center tagline font-extrabold text-white m-2">
               {item.name}
             </span>
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/90 to-purple-300/80 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-white to-purple-400/80 ">
               <img 
                 src={item.icon} 
                 width={180} 
@@ -65,7 +65,7 @@ const Collaboration = () => {
            key={index}
            className="flex flex-col items-center gap-1 w-1/2 sm:w-1/3 md:w-auto"
          >
-            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-slate-100/90 to-purple-300/80 ">
+            <div className="rounded-2xl flex items-center mb-4 justify-center bg-gradient-to-tr from-white to-purple-400/80 ">
              <img 
                src={item.icon} 
                width={180} 
@@ -145,7 +145,7 @@ const Collaboration = () => {
             className="w-max"
           >
             <ul className="flex flex-row flex-nowrap gap-6">
-              {SlidingPartnersRight.map((item, index) => (
+              {SlidingPartnersLeft.map((item, index) => (
                 <li
                   key={index}
                   className="flex flex-col items-center gap-1 w-[100px] sm:w-[125px] md:w-[150px]"
