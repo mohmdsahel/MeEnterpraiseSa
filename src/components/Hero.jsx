@@ -37,8 +37,8 @@ const Hero = () => {
             AI & Analytics Summit
           </h1>
           <h5 className="tagline font-extrabold text-xs sm:text-base mb-3 sm:mb-6 text-center text-n-1">
-            <i className="fa-solid fa-location-dot"></i> Riyadh, Saudi Arabia <br/>
-            <i className="fa-solid fa-calendar"></i> 1st May 2025
+            <i className="fa-solid fa-location-dot"></i> Hyatt Regency Riyadh Olaya <br/>
+            <i className="fa-solid fa-calendar"></i> September 4th 2025
           </h5>
           <div>
             <Countdown/>
